@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">M04_DialogDemo</string>
+    <string name="greeting">Dialog Demo!</string>
+    <string name="dialog_fire_missiles">Fire missiles?</string>
+    <string name="fire">Fire</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="button_fire">Fire missiles!</string>
+    <string name="button_color">Pick a color!</string>
+    <string name="button_topping">Pick toppings!</string>
+    <string name="button_custom">Custom Layout Dialog</string>
+    <string name="pick_color">Pick a color</string>
+    <string-array name="colors_array">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+    </string-array>
+    <string name="pick_toppings">Pick toppings</string>
+    <string-array name="toppings">
+        <item>Onion</item>
+        <item>Lettus</item>
+        <item>Tomato</item>
+        <item>Olive</item>
+    </string-array>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signin">Sign in</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="fire_message">Fire missiles!</string>
+    <string name="cancel_fire_message">Cancel fire missiles!</string>
+    <string name="color_pick_message">[%1$s] has picked!</string>
+    <string name="cancel_pick_message">Cancel pick toppings!</string>
+    <string name="topping_pick_message">"Toppings: [%1$s]</string>
+    <string name="user_info">Username: %1$s,  Password: %2$s</string>
+    <string name="cancel_signin">Sign-in canceled!</string>
+</resources>
