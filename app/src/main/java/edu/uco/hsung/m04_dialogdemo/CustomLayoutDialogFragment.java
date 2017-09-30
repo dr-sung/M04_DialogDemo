@@ -3,7 +3,6 @@ package edu.uco.hsung.m04_dialogdemo;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.DialogFragment;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -23,10 +22,10 @@ public class CustomLayoutDialogFragment extends DialogFragment {
 	// Use this instance of the interface to deliver action events
 	CustomLayoutListener listener;
 	
-	// Override the Fragment.onAttach() method to instantiate the NoticeDialogListener
+	// to instantiate the NoticeDialogListener
     @Override
-    public void onAttach(Context context) {
-        super.onAttach(context);
+    public void onCreate(Bundle bundle) {
+        super.onCreate(bundle);
         // Verify that the host activity implements the callback interface
         try {
             // Instantiate the NoticeDialogListener so we can send events to the host
